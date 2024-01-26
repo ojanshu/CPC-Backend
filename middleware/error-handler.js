@@ -1,3 +1,4 @@
+//this middleware displays error
 const { CustomAPIError } = require("../errors/custom-error")
 const errorhandlerMiddleware = (err,req,res,next) => {
     if(err instanceof CustomAPIError) {

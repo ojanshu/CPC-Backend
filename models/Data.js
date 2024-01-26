@@ -1,3 +1,4 @@
+//importing mongoose to define a schema and create a model
 const mongoose = require("mongoose");
 
 const DataSchema = new mongoose.Schema({

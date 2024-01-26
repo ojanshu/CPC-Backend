@@ -1,3 +1,4 @@
+//it is used to connect to the database
 const mongoose= require("mongoose");
 
 const connectDB = function (url) {
